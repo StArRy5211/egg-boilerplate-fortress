@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git@github.com:gh378684988/egg-boilerplate-fortress.git"
   },
-  "author": "TZ <atian25@qq.com>",
+  "author": "gao_jie@gzhc365.com",
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.0.0",
