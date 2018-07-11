@@ -1,6 +1,6 @@
 {
   "name": "egg-boilerplate-fortress",
-  "version": "3.1.2",
+  "version": "1.0.0",
   "description": "boilerplate for egg with egg-fortress framework quickstart",
   "scripts": {
     "autod": "autod",
