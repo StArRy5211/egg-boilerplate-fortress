@@ -2,10 +2,10 @@
 
 const Controller = require('egg-fortress').Controller;
 
-class ApiController extends Controller {
+class HomeController extends Controller {
   async index() {
     this.ctx.success('hello world');
   }
 }
 
-module.exports = ApiController;
+module.exports = HomeController;

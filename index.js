@@ -11,6 +11,10 @@ module.exports = {
     desc: 'project listen port',
     default: 7001,
   },
+  group: {
+    desc: 'project group',
+    default: 'fe-support',
+  },
   keys: {
     desc: 'cookie security keys',
     default: Date.now() + '_' + random(100, 10000),

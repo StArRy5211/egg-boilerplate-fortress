@@ -1,0 +1,12 @@
+version: '3'
+services:
+  {{name}}:
+    image: 172.16.12.138:5000/{{group}}_{{name}}:latest
+    restart: always
+    environment:
+      - NODE_ENV=production
+      - EGG_SERVER_ENV=prod
+    volumes:
+      - ./logs:/usr/src/app/logs
+    ports:
+      - {{port}}:{{port}}
