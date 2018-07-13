@@ -1,6 +1,6 @@
 {
   "name": "{{name}}",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "{{description}}",
   "private": true,
   "dependencies": {
@@ -19,6 +19,9 @@
   },
   "engines": {
     "node": ">=8.9.0"
+  },
+  "egg": {
+    "framework": "egg-fortress"
   },
   "scripts": {
     "start": "egg-scripts start --daemon --title={{name}} --port={{port}}",
